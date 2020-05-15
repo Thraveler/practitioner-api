@@ -70,8 +70,6 @@ router.get('/dispersiones/:numeroLote', (req, res) => {
 // DELETE Eliminar dispersion por numero de lote
 router.delete('/dispersiones/:numeroLote', (req, res) => {
 
-	console.log(req.body.id_emp)
-
 	let query = {
 		dsi_lote: req.params.numeroLote,
 		dsi_emp: req.body.id_emp

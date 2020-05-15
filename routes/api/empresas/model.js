@@ -16,8 +16,7 @@ const empresaSchema = new Schema({
   },
   emp_pass: {
     type: String,
-    require: true,
-    match: /^[a-zA-Z0-9]{8}$/
+    require: true
   },
   emp_alta: {
     type: Date,
